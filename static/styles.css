@@ -1,0 +1,135 @@
+/* styles.css - 2-counters synergy, no overall WR, color-coded synergy, fallback item builds. 
+   Enough to see illusions that items appear when you click the button. */
+
+   body {
+    background-color: #1b2838;
+    color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar .nav-link {
+    color: #fff !important;
+  }
+  
+  .hero-area .hero {
+    background-color: #2a475e;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: relative;
+  }
+  
+  .hero-area .hero img {
+    width: 100px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+  }
+  
+  .hero-area .hero p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .hero-area .hero:hover {
+    transform: scale(1.03);
+  }
+  
+  .hero-area .hero.selected img {
+    border-color: lime;
+  }
+  
+  .hero-area .hero.unselectable img {
+    border-color: red;
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  
+  .recommendation {
+    background-color: #2a475e;
+    border: 1px solid #444;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .recommendation-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .recommendation-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #666;
+  }
+  
+  .item-build-button {
+    background-color: transparent;
+    color: #ffcc00;
+    border: 1px solid #ffcc00;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .item-build-container {
+    display: none;
+    margin-top: 10px;
+    padding: 5px;
+    border-top: 1px solid #555;
+  }
+  
+  .item-phase {
+    margin: 10px 0;
+  }
+  
+  .item-phase h4 {
+    margin: 5px 0;
+    color: #ffcc00;
+  }
+  
+  .item-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    text-align: center;
+    width: 60px;
+  }
+  
+  .item img {
+    width: 60px;
+    border: 1px solid #444;
+    border-radius: 3px;
+  }
+  
+  .item p {
+    margin: 3px 0 0;
+    font-size: 12px;
+    color: #ddd;
+  }
+  
+  .item small {
+    color: #bbb;
+    font-size: 11px;
+  }
+  
+  /* color-coded synergy advantage or synergy wr */
+  .wr-high {
+    color: lime;
+    font-weight: bold;
+  }
+  .wr-low {
+    color: red;
+    font-weight: bold;
+  }
+  
