@@ -1,0 +1,717 @@
+{
+  "Abaddon": {
+    "Alchemist": "Aphotic Shield removes Alchemist’s stun from Unstable Concoction, and Borrowed Time lets Abaddon survive Alchemist’s heavy single-target damage. Abaddon can also protect allies from Acid Spray by dispelling the armor reduction.",
+    "Anti-Mage": "Abaddon’s Mist Coil sustains his team, mitigating Anti-Mage’s poke damage in lane. If Anti-Mage tries to blink aggressively, Abaddon’s constant heals and shield can quickly turn the fight, forcing AM to retreat.",
+    "Axe": "Abaddon dispels Battle Hunger on himself or allies and can protect someone caught by Berserker’s Call with shield and heals, lowering Axe’s chance to cull them at threshold."
+  },
+
+  "Alchemist": {
+    "Ancient Apparition": "Although AA’s Ice Blast prevents regeneration, Alchemist can still outfarm AA with Greevil’s Greed. Once Alchemist is ahead, he can quickly kill AA before Ice Blast even comes out.",
+    "Abaddon": "If Alchemist times his Unstable Concoction after Borrowed Time is forced, Abaddon can’t remove the stun. Alchemist’s acid spray reduces Abaddon’s armor and lessens the effectiveness of his sustain over time.",
+    "Anti-Mage": "Alchemist’s early gold advantage allows him to buy items that hamper Anti-Mage’s split push, like Scythe of Vyse or early Basher, preventing AM from freely blinking around."
+  },
+
+  "Ancient Apparition": {
+    "Huskar": "Ice Blast negates Huskar’s massive healing from Inner Vitality and life steal, letting AA’s team bring Huskar down before he can fully commit to fights. Chilling Touch also helps zone Huskar in lane.",
+    "Meepo": "Ancient Apparition’s AoE spells and Ice Blast affect all Meepos, preventing them from healing each other effectively and punishing their grouped playstyle.",
+    "Timbersaw": "Although Timbersaw is tanky, AA’s Ice Blast halts most of his reactive healing, forcing Timber to play carefully or risk being nuked down by mid-game magic bursts."
+  },
+
+  "Anti-Mage": {
+    "Crystal Maiden": "Anti-Mage’s Spell Shield heavily reduces Maiden’s magical damage, and he can blink away from Frostbite or Nova, punishing her slow mobility. Once items are up, AM can quickly kill CM in fights.",
+    "Necrophos": "AM’s Mana Break burns Necro’s mana, reducing his ability to spam Death Pulse. Blink also dodges Reaper’s Scythe if timed. Mana Void punishes Necro’s naturally high mana usage in fights.",
+    "Zeus": "Zeus’s entire kit revolves around magical nukes, which Anti-Mage can shrug off with Spell Shield. AM easily hunts Zeus in the backlines, forcing him to itemize defensively."
+  },
+
+  "Arc Warden": {
+    "Lone Druid": "Arc Warden’s Tempest Double can chip away at the Spirit Bear safely with Flux, forcing Lone Druid to keep re-summoning or risk losing the Bear. Spark Wraith also zones LD effectively.",
+    "Phantom Assassin": "Arc Warden’s Magnetic Field grants evasion to allies and structures, negating PA’s right-click burst. If PA dives in, Arc can kite with Flux plus clones, making it tough for PA to finish kills.",
+    "Sniper": "Arc Warden can out-range Sniper with Spark Wraith and maintain distance. Once Warden has items, the Double can split-push while also forcing Sniper to relocate constantly."
+  },
+
+  "Axe": {
+    "Broodmother": "Axe’s AoE from Counter Helix and Battle Hunger punishes Broodmother’s spiderlings. If Brood tries to overwhelm him in lane, Helix kills the spiders, giving Axe farm and reducing her threat.",
+    "Phantom Lancer": "Axe’s Berserker’s Call forces PL and his illusions to attack Axe, causing massive Helix procs. This quickly thins illusions, limiting PL’s ability to fight or farm effectively.",
+    "Wraith King": "Axe can often force Wraith King to lose his first life quickly via Call and Helix. If WK reincarnates with low mana or short cooldown, Axe’s team can finish him again before he re-stabilizes."
+  },
+
+  "Bane": {
+    "Chaos Knight": "Bane’s Fiend’s Grip pierces CK’s illusions and controls him throughout. Nightmare also isolates the real CK from illusions, preventing chaos in fights. Brain Sap helps Bane survive CK’s burst.",
+    "Luna": "Bane can Fiend’s Grip Luna during Eclipse, preventing her from using that damage advantage. Nightmare also sets up easy kills for allies, forcing Luna to itemize for early BKB.",
+    "Slark": "Although Slark can purge a few debuffs, Fiend’s Grip locks him entirely. If Bane times it well, Slark can’t Dark Pact or Shadow Dance, letting Bane’s team kill him before he resets."
+  },
+
+  "Batrider": {
+    "Legion Commander": "Firefly and sticky napalm hamper LC’s dueling potential by kiting her around. If Batrider drags LC far from her team, Duel becomes unsafe to cast, and Batrider’s allies can quickly kill her.",
+    "Phantom Assassin": "Batrider punishes PA’s blink-in attempts by applying multiple Napalm stacks, slowing her turn rate. Lasso prevents PA’s escapes or bursts, letting Batrider’s team focus her down while she’s immobilized.",
+    "Timbersaw": "Timber’s mobility is limited once Napalm accumulates. Batrider can Lasso him, dragging him away from trees. Even though Timbersaw is tanky, continuous Napalm eventually whittles him down."
+  },
+
+  "Beastmaster": {
+    "Nature’s Prophet": "Beastmaster’s Boar slow plus Hawk vision punishes Prophet’s attempts to split push. Primal Roar locks Prophet in place, preventing him from teleporting out once caught.",
+    "Lifestealer": "Although Lifestealer can rage, Beastmaster’s summons help chip him down. Primal Roar still pierces BKB or rage, letting Beastmaster or allies focus Lifestealer while he’s disabled.",
+    "Storm Spirit": "Hawk vision spots Storm’s movements from the sky, and Primal Roar locks him in place if he tries to ball in. Boars also slow Storm, forcing him to waste more mana on Remnants."
+  },
+
+  "Bloodseeker": {
+    "Anti-Mage": "Rupture punishes AM’s blink, forcing him to stand still or risk massive HP loss from movement. Thirst helps track AM at low HP, preventing his escape or free farming in corners.",
+    "Juggernaut": "Blood Rite and Rupture hamper Juggernaut’s attempts to spin and walk away. If Jugg tries to Omnislash, allies can scatter, letting Bloodseeker survive and counter-initiate with thirst active.",
+    "Weaver": "Because Weaver relies on mobility, Rupture corners him, forcing him to time-lapse early or not move at all. Bloodseeker’s thirst reveals low HP Weaver, stopping him from Shukuchi escapes easily."
+  },
+
+  "Bounty Hunter": {
+    "Crystal Maiden": "Bounty Hunter can continuously harass Maiden in lane, capitalizing on her low mobility. Once Track is available, BH helps his team quickly burst Maiden for extra gold, negating her early support advantage.",
+    "Phantom Assassin": "Bounty Hunter’s Track grants vision of PA, preventing her from using Blur to hide. If PA jumps in for a kill, BH’s invis-and-hit tactics force PA to be cautious about overcommitting."
+  },
+
+  "Brewmaster": {
+    "Invoker": "Brewmaster’s Primal Split micro allows him to dodge key Invoker spells (EMP, Tornado) and disrupt Invoker’s combos. After splitting, Brew’s Storm panda can Cyclone Invoker, stopping him from freely casting more spells.",
+    "Juggernaut": "Even if Juggernaut tries Omnislash, Brewmaster can Primal Split to avoid most of the slashes. Drunken Brawler also causes Jugger’s attacks to miss or do reduced damage in fights."
+  },
+
+  "Bristleback": {
+    "Viper": "Bristleback’s tankiness is somewhat negated by Viper’s poison slowing his turn rate and mobility. However, if Bristle times his Quill Sprays well, he can accumulate enough damage over time to kill Viper. Once Bristle is farmed, Viper struggles to burst him down.",
+    "Timbersaw": "While Timbersaw can deal pure damage, Bristleback’s constant Quills stack up, forcing Timber to itemize carefully. If Bristle catches Timbersaw away from trees, he can sustain through Chakram and eventually out-damage him."
+  },
+
+  "Broodmother": {
+    "Axe": "Axe’s Counter Helix destroys Broodmother’s spiderlings, giving Axe free farm while crippling Brood’s lane presence. If Brood can’t effectively pressure with her spiders, she loses her biggest advantage.",
+    "Earthshaker": "Echo Slam annihilates clustered spiderlings, making it hazardous for Brood to group them. Fissure can also block Brood from escaping to webs, forcing her to fight or risk losing spiders."
+  },
+
+  "Centaur Warrunner": {
+    "Phantom Lancer": "Centaur’s low-cooldown Hoof Stomp and Double Edge can quickly eliminate illusions if PL isn’t careful. Stampede also lets Centaur’s team either chase PL or avoid his illusions entirely.",
+    "Sniper": "Centaur’s high HP pool and Stampede help him close the gap on Sniper. Once he’s in melee range, Sniper’s lack of escape makes it easy for Centaur to burst him down with Return damage and Double Edge."
+  },
+
+  "Chaos Knight": {
+    "Wraith King": "Chaos Knight’s illusions and critical strikes can burn Wraith King’s first life swiftly. If CK times his Reality Rift while WK is alone, WK may be forced to reincarnate prematurely, limiting his teamfight impact.",
+    "Luna": "CK’s illusions soak Luna’s Eclipse beams, reducing her overall damage output. Also, Reality Rift forces Luna into close range, preventing her from kiting or using Lucent Beam effectively."
+  },
+
+  "Chen": {
+    "Enigma": "Chen can convert Eidolons if timed correctly, weakening Enigma’s lane pressure. Penitence and Holy Persuasion allow Chen to push faster than Enigma can respond with Black Hole on cooldown.",
+    "Lycan": "Though Lycan’s summons are strong, Chen’s ability to take control of neutral creeps (and sometimes even wolves) can turn Lycan’s own push potential against him. A well-micro’d army can out-push Lycan’s lane advantage."
+  },
+
+  "Clinkz": {
+    "Drow Ranger": "Clinkz’s invisibility and high burst can kill Drow before she can react with Gust. Drow’s low HP pool is vulnerable to Strafe + Searing Arrows combos, letting Clinkz dominate in mid-game skirmishes.",
+    "Warlock": "Clinkz can pick off Warlock before he casts Chaotic Offering. By the time Warlock sees Clinkz, it’s often too late, especially if Clinkz uses Skeleton Walk to approach unseen."
+  },
+
+  "Clockwerk": {
+    "Crystal Maiden": "Clockwerk’s Hookshot easily initiates on Maiden, and his Battery Assault disrupts her channeling Ult. In cogs, Maiden can’t escape unless she invests in mobility, turning her into a prime kill target.",
+    "Sniper": "Clockwerk punishes Sniper’s immobility by hooking in and trapping him with Power Cogs. Sniper’s attempts to keep distance are often thwarted once Clock has angle for Hookshot."
+  },
+
+  "Crystal Maiden": {
+    "Axe": "Despite being squishy, Maiden can use Frostbite to hold Axe in place while allies chip away at him, especially if he tries to spin on creeps. If done well, Axe can’t freely blink-initiate without being punished by slows.",
+    "Storm Spirit": "Frostbite and Crystal Nova slow Storm’s early game momentum. If CM positions well, Storm wastes significant mana trying to dodge or pick off CM, giving her allies an opening to kill Storm in return."
+  },
+
+  "Dark Seer": {
+    "Phantom Lancer": "Ion Shell reveals illusions quickly in fights, and Vacuum clusters them together for easy AoE nuking. Surge helps Dark Seer’s allies chase PL even through Doppelganger, forcing PL to constantly reposition.",
+    "Naga Siren": "Vacuum disrupts Naga’s formation of illusions, making it harder for her to split-push effectively. Ion Shell also chips illusions and quickly clears waves, preventing Naga from building map control uncontested.",
+    "Slark": "Although Slark can purge slows, Surge allows allies to kite his attempts at pickoffs. Vacuum into a stun combo can catch Slark mid-pounce or force him to use Shadow Dance defensively, limiting his aggression."
+  },
+
+  "Dark Willow": {
+    "Lycan": "Bramble Maze and Cursed Crown disrupt Lycan’s attempts to chase down targets during Shapeshift. Terrorize forces him to retreat, delaying or outright negating his strong mid-game pushes.",
+    "Phantom Assassin": "Willow’s Shadow Realm dodges PA’s burst and lets Willow poke safely. If PA commits with Blink Strike, a quick Cursed Crown punishes her aggression, forcing PA to either BKB early or risk being stunned.",
+    "Legion Commander": "Willow can counter-initiate Legion’s Duel with Terrorize or Bramble Maze, breaking her momentum. If Legion Duels an ally, Dark Willow can use Bedlam or Shadow Realm to dish out damage without putting herself at risk."
+  },
+
+  "Dazzle": {
+    "Spectre": "Dazzle’s Shadow Wave can mitigate Spectre’s chip damage from Dispersion, and Shallow Grave prevents quick kills on Dazzle’s teammates, forcing Spectre to overcommit or retreat. Early Poison Touch also pressures her weak laning phase.",
+    "Wraith King": "Shallow Grave negates WK’s first life pickoff attempts, buying time for allies to regroup. Poison Touch helps keep him slowed, making it harder for WK to stick to backline targets or chain stuns effectively.",
+    "Timbersaw": "Although Timbersaw is naturally tanky, Dazzle’s physical minus armor from Weave can set Timbersaw up to be burst down by physical DPS. Healing from Shadow Wave also offsets some of Timber’s chip damage in prolonged fights."
+  },
+
+  "Death Prophet": {
+    "Faceless Void": "Even if Void lands a Chronosphere, DP’s Exorcism continues dealing damage inside it. If her team can keep her alive, Void might be forced to retreat or risk being drained by Spirit Siphon mid-Chronosphere.",
+    "Queen of Pain": "Spirit Siphon punishes QOP’s early aggression, and Silence interrupts her attempts to blink away or cast Sonic Wave. Exorcism outraces QOP’s damage if Death Prophet survives the initial burst.",
+    "Pugna": "Although Pugna deals high magic damage, DP’s Silence shuts him down, preventing Nether Ward or Decrepify combos. Spirit Siphon also goes through Decrepify’s damage reduction, letting DP sustain while pressuring Pugna in fights."
+  },
+
+  "Disruptor": {
+    "Storm Spirit": "Glimpse forces Storm back after a long zip, wasting his mana and momentum. Kinetic Field + Static Storm combo locks Storm in place, preventing him from casting or escaping if timed properly.",
+    "Slark": "Even though Slark can purge some debuffs, Glimpse undoes his escapes if he tries to pounce away. Static Storm silences him through Shadow Dance if placed precisely, denying him a safe retreat.",
+    "Puck": "Disruptor can punish Puck’s slippery nature by preemptively placing Kinetic Field. If Puck jaunts away, a well-timed Glimpse yanks Puck back, making it risky for Puck to use Orb aggressively."
+  },
+
+  "Doom": {
+    "Timbersaw": "Doom disables all of Timbersaw’s spells and passive regen, turning him into a slow-moving target. Devour grants Doom additional farm, letting him pick up items (like Spirit Vessel) to further counter Timbersaw’s tankiness.",
+    "Storm Spirit": "Doom prevents Storm from zipping away, leaving him vulnerable to focus fire. If Doom can farm a Blink Dagger or Shadow Blade, Storm is forced to play extremely cautiously to avoid a game-turning Doom.",
+    "Phantom Lancer": "Doom’s AoE spells (Infernal Blade with Aghanim’s upgrade, Scorched Earth) and the eventual Shiva’s Guard or Radiance burn illusions. Once PL is Doomed, he cannot Doppelganger or create more illusions, crippling his survivability."
+  },
+
+  "Dragon Knight": {
+    "Viper": "Viper’s poison attacks and Nethertoxin can break Dragon Blood, negating DK’s tankiness. DK must be careful in lane or risk being zoned out by Viper’s constant DPS and break mechanic.",
+    "Razor": "Static Link punishes Dragon Knight’s short-range attacks, draining his damage in fights. Razor’s Eye of the Storm also shreds DK’s armor during Elder Dragon Form, forcing him to itemize for survivability.",
+    "Drow Ranger": "Although DK has armor and HP regen, Drow’s high physical burst and marksmanship can still pressure him significantly once she gets items. If Drow stays at a safe distance, DK has difficulty catching her without Blink or team assistance."
+  },
+
+  "Drow Ranger": {
+    "Phantom Assassin": "PA can easily jump onto Drow, bypassing her range advantage. Coupled with Blur, PA’s evasion negates much of Drow’s precision damage, forcing Drow to itemize for true strike or risk being burst down.",
+    "Clockwerk": "Clockwerk’s Hookshot and Power Cogs trap Drow, nullifying her range advantage. Battery Assault also prevents her from casting Gust reliably, making it hard for Drow to kite or escape the cogs.",
+    "Slark": "Slark’s mobility outmatches Drow’s defensive tools. Once he pounces on her, she relies on Gust to knock him back, but if Slark times Dark Pact, he can purge that silence and stay on top of her."
+  },
+
+  "Earth Spirit": {
+    "Sniper": "Earth Spirit’s Rolling Boulder and Geomagnetic Grip let him close the gap quickly on Sniper. Once he’s on top of Sniper, the silence and stun chain can secure kills before Sniper can reposition.",
+    "Tinker": "Earth Spirit’s long-range initiation punishes Tinker’s constant rearm-and-TP cycles. With a well-placed Boulder Smash or silence, Tinker can be locked down, preventing him from escaping or defending towers freely.",
+    "Invoker": "Earth Spirit’s early rotations disrupt Invoker’s ability to farm. Invoker also struggles against silence if Earth Spirit catches him off guard. This forces Invoker to itemize early for survivability (e.g., Eul’s), delaying his core items."
+  },
+
+  "Earthshaker": {
+    "Phantom Lancer": "Earthshaker’s Echo Slam devastates PL’s illusions in fights. Fissure and Aftershock chain-stun PL long enough for allies to follow up, preventing PL from freely splitting or escaping.",
+    "Meepo": "Each Meepo clone amplifies Echo Slam’s damage. With a well-timed Blink Dagger, Earthshaker can wipe out the entire Meepo team in one big slam if Meepo isn’t careful with spacing.",
+    "Lycan": "Lycan’s summons and wolves serve as additional Echo Slam targets. Fissure can also interrupt Lycan’s chase, forcing him to run around obstacles or risk being isolated from his pack."
+  },
+
+  "Elder Titan": {
+    "Slark": "Astral Spirit plus Echo Stomp can catch Slark mid-pounce, setting up kills before he has time to purge debuffs. Natural Order also removes Slark’s base armor and magic resistance, making him much squishier.",
+    "Chaos Knight": "Natural Order strips CK’s illusions of armor and magic resistance, making them easy to cleave down. Elder Titan’s AoE stomp can also briefly expose the real CK, helping allies focus him.",
+    "Medusa": "Elder Titan’s Natural Order cuts through Medusa’s mana-shield effectiveness. Once her mana is depleted, she becomes much easier to burst down. Stomp also interrupts her Stone Gaze channel if timed properly."
+  },
+
+  "Ember Spirit": {
+    "Phantom Assassin": "Flame Guard and Sleight of Fist let Ember trade effectively in lane. If PA jumps Ember, he can Remnant out or chain her for a counter-initiation. PA’s low armor early is also vulnerable to Ember’s magic bursts.",
+    "Anti-Mage": "Ember can push waves fast and threaten AM’s split push with global Remnants. Searing Chains can lock AM in place, forcing him to Blink defensively or risk taking heavy Flame Guard damage.",
+    "Zeus": "While Zeus has strong nukes, Ember can dodge them with Sleight of Fist and Fire Remnant. Once Ember Spirit gets on top of Zeus, the latter’s lack of mobility is exposed, forcing defensive itemization."
+  },
+
+  "Enchantress": {
+    "Ursa": "Impetus punishes Ursa’s melee approach, dealing massive damage if he can’t close in quickly. Untouchable slows Ursa’s attack speed, making it difficult for him to burst Enchantress before she can disengage.",
+    "Necrophos": "Enchantress can outrange Necro, and Untouchable negates his right-click follow-ups after Death Pulse. If Necro tries to Reaper’s Scythe her, Nature’s Attendants can keep her alive just long enough to slip away.",
+    "Troll Warlord": "Enchantress kites Troll easily, especially when he tries to all-in with Battle Trance. Untouchable reduces his DPS, forcing Troll to commit early BKB or risk being kited until his ultimate ends."
+  },
+
+  "Enigma": {
+    "Chaos Knight": "Mid-late game, CK’s illusions become food for Enigma’s Midnight Pulse and Black Hole. If CK bunches up illusions, a well-placed Black Hole can quickly wipe them all out, crippling his team’s damage.",
+    "Broodmother": "Enigma’s AoE spells clear spiderlings, mitigating Brood’s lane dominance. If Brood tries to push with a large army, Enigma can convert her spiders into Eidolons or catch them in Black Hole to defend towers.",
+    "Bane": "Enigma can interrupt Fiend’s Grip with Malefice from a safe distance, and if Bane stands still channeling, he’s an easy target for Black Hole. Conversely, Bane has no easy way to cancel Enigma’s ult through BKB."
+  },
+
+  "Faceless Void": {
+    "Wraith King": "Chronosphere locks WK in place, burning through his first life. If timed well, Void and his allies can secure a second kill before WK recovers from Reincarnation. Time Walk also helps Void evade WK’s stun attempts.",
+    "Drow Ranger": "Void’s Time Walk negates Drow’s ranged pokes, and Chronosphere ensures Drow can’t kite. She relies on distance to survive, but once Void catches her, she crumbles under focused fire.",
+    "Invoker": "Void can jump Invoker preemptively with a Blink or Time Walk. Chronosphere shuts down Invoker’s extensive spell kit, preventing him from casting Tornado/EMP/Deafening Blast combos while Void’s team piles on damage."
+  },
+
+  "Grimstroke": {
+    "Phoenix": "Soulbind can link Phoenix to another hero, forcing them both into the same Supernova radius. Ink Swell combined with an allied initiator can also catch Phoenix out before he can dive away or transform.",
+    "Warlock": "Grimstroke punishes Warlock’s clumped Golem drops with Soulbind, doubling the effect of spells cast on the soulbound targets. If Warlock channels Upheaval, Grimstroke can easily silence or stun him.",
+    "Juggernaut": "Soulbind can latch Juggernaut to an ally, preventing his Blade Fury retreat if Jugg tries to spin away. Ink Swell on a teammate can zone Jugg out during Omnislash, buying precious time for Grimstroke’s allies."
+  },
+
+  "Gyrocopter": {
+    "Broodmother": "Gyro’s Flak Cannon and Rocket Barrage shred spiderlings, denying Brood map control. Once Gyro has an early level advantage, Brood can’t safely push or lane with her spiders grouped.",
+    "Phantom Lancer": "Flak Cannon deals AoE physical damage, quickly revealing the real PL among illusions. Homing Missile also forces PL to reposition or eat a stun, making it harder for him to commit to fights.",
+    "Undying": "Gyro’s short cooldown AoE spells (Rocket Barrage, Call Down) punish Undying’s Tombstone strategies. If Undying tries to brawl early, Gyro’s burst damage can outpace Undying’s sustain, especially with allied follow-up."
+  },
+
+  "Hoodwink": {
+    "Juggernaut": "If Juggernaut commits Omnislash, Hoodwink can use Scurry (with trees nearby) to reduce incoming hits. Bushwhack also sets up kills when Jugg tries to spin away, forcing him to be cautious with his engage.",
+    "Tidehunter": "Although Tide is tanky, Sharpshooter deals massive burst if Hoodwink lands a fully charged shot. Bushwhack can also hold Tide in place, preventing him from waddling away before Hoodwink’s team converges.",
+    "Legion Commander": "Hoodwink can interrupt LC’s Duel attempts with Bushwhack from a distance. Acorn Shot’s bounces also provide vision, preventing LC from sneaking up with Shadow Blade or using fog to initiate."
+  },
+
+  "Huskar": {
+    "Axe": "While Huskar is good at man-fighting, Axe’s Berserker’s Call locks him down through Burning Spear stacks. If Huskar drops low, a timely Culling Blade can finish him off before he regains HP from Lifebreak or Inner Fire.",
+    "Dazzle": "Dazzle’s Shallow Grave counters Huskar’s lethal bursts, forcing him to overcommit. Poison Touch and physical damage from allies are enough to whittle Huskar down once his initial jump fails.",
+    "Ancient Apparition": "We’ve seen this matchup before: AA’s Ice Blast negates Huskar’s regen. Without healing, Huskar is much more fragile, especially once the blast lands and he’s deep in the enemy backline."
+  },
+
+  "Invoker": {
+    "Pugna": "Pugna’s Decrepify can disrupt Invoker’s combos if timed well, but if Invoker lands EMP-Tornado first, Pugna loses his mana advantage. Also, Invoker can Cold Snap Pugna through Life Drain, forcing him to break channel early.",
+    "Silencer": "Silencer’s Global Silence halts Invoker’s long cast sequences (e.g., Tornado–EMP–Meteor). Invoker must either itemize for Eul’s or BKB to deal with Silencer, delaying his core spells and items.",
+    "Storm Spirit": "If Storm zips in, a quick Tornado or Cold Snap can disable him. However, Storm can also punish Invoker’s weaker early game if Invoker overextends. This matchup is skill-based and depends on rotations and item timings."
+  },
+
+  "Io": {
+    "Chaos Knight": "Io pairs exceptionally well with CK, using Tether to amplify CK’s sustain. Overcharge and Reality Rift combos can devastate squishier heroes, and Relocate sets up surprise ganks or rescues.",
+    "Tiny": "The classic combo: Io + Tiny. Io’s Overcharge and Tether give Tiny massive attack speed and sustain for early kills or tower pushes. Relocate also helps Tiny find pickoffs or quickly reposition across the map.",
+    "Bristleback": "Io’s Tether and Overcharge keep Bristle permanently topped off as he spams Quill Sprays. The pair is hard to bring down in lane, as Io’s relocate can save Bristle at low HP, turning fights around."
+  },
+
+  "Jakiro": {
+    "Phantom Lancer": "Dual Breath and Macropyre’s AoE reveal and damage illusions, hindering PL’s attempts to fight in the middle of his illusions. Liquid Fire also pressures PL in lane by slowing his attack speed.",
+    "Beastmaster": "Jakiro can clear Beastmaster’s summoned creatures with AoE spells, limiting his push potential. If Beastmaster commits with Primal Roar, Jakiro can still cast Ice Path or Macropyre from range to discourage follow-ups.",
+    "Chen": "Jakiro’s area denial punishes Chen’s grouped creeps. Macropyre can quickly melt Chen’s army, while Liquid Fire helps in tower defense against Chen’s push. Chen struggles to save all creeps once Jakiro’s AoE hits."
+  },
+
+  "Juggernaut": {
+    "Lion": "Although Jugg can Blade Fury to dodge disables, Lion’s quick Hex or Mana Drain can force Juggernaut to use spin prematurely. If Jugg is out of position, Finger of Death punishes him before he can Omnislash.",
+    "Shadow Demon": "Disruption saves allies from Omnislash or sets up kills on Juggernaut. If Jugg tries to spin-TP, Shadow Demon can cast Soul Catcher or even Purge to slow him, forcing Jugg to reconsider his escapes.",
+    "Beastmaster": "Even if Jugg spins, Beastmaster’s Primal Roar pierces spell immunity, preventing Juggernaut from finishing kills or escaping. Hawk vision also spots Jugg’s movements, enabling early ganks or counters."
+  },
+
+  "Keeper of the Light": {
+    "Storm Spirit": "Illuminate pushes lanes rapidly, forcing Storm to expend mana to defend. If Storm tries to zip in, a quick Blinding Light can knock him back, and Chakra Magic’s mana sustain helps KoTL’s team outlast Storm’s bursts.",
+    "Phantom Lancer": "Keeper’s Illuminate and Spirit Form with Will-O-Wisp disrupt illusions, making PL’s approach risky. Blinding Light also disorients illusions, forcing PL to reposition often in fights.",
+    "Underlord": "Both heroes excel at pushing and counter-pushing. Keeper’s Chakra Magic can keep Underlord spamming Firestorm, but if Underlord commits Dark Rift to escape or split push, Keeper can swiftly recall allies to respond."
+  },
+
+  "Kunkka": {
+    "Phantom Lancer": "Kunkka’s Tidebringer cleave helps identify and damage the real PL. X Marks the Spot can catch PL post-Doppelganger, forcing him to fight or burn another escape. If timed right, Ghostship locks him down mid-fight.",
+    "Slark": "X Marks the Spot punishes Slark’s attempts to pounce away. If Slark commits to a fight, Kunkka’s cleave from Tidebringer and Ghostship’s AoE stun can burst Slark before he can Shadow Dance out.",
+    "Storm Spirit": "Kunkka can predict Storm’s zip paths with X Marks the Spot. A well-placed Torrent or quick combo might catch Storm off guard. Storm must be cautious or risk getting chained by combos and finishing hits."
+  },
+
+  "Legion Commander": {
+    "Wraith King": "Legion can purge WK’s stun with Press the Attack and aim for quick Duels. If WK reincarnates, LC still benefits from the damage gained in a won Duel, helping her scale better into late game.",
+    "Enchantress": "Overwhelming Odds deals massive damage to grouped creeps or Enchantress’s converted army. If LC Duels Enchantress, Press the Attack dispels Untouchable’s slow attack speed, allowing LC to burst Enchant quickly.",
+    "Timbersaw": "Although Timbersaw is tanky, Legion’s Duel plus her team’s follow-up damage can bring him down if they chain stuns or apply sufficient burst. Press the Attack also dispels Whirling Death’s stat reduction on allies."
+  },
+
+  "Leshrac": {
+    "Phantom Lancer": "Leshrac’s AoE spells (Lightning Storm, Pulse Nova) help reveal and kill PL’s illusions quickly. Once he has Bloodstone or other mana sustain, Leshrac can outpush PL’s split attempts.",
+    "Broodmother": "Diabolic Edict melts Brood’s webs and punishes her tower pushes. Leshrac’s AoE damage also clears spiderlings, preventing Brood from safely pressuring or farming in her usual territory.",
+    "Meepo": "Leshrac’s high AoE magic damage from Pulse Nova punishes grouped Meepos. If Leshrac stays alive long enough in fights, Meepo’s clones get whittled down quickly, giving Leshrac’s team easy cleanup."
+  },
+
+  "Lich": {
+    "Phantom Lancer": "Chain Frost can bounce across multiple illusions, revealing the real PL and dealing heavy damage if illusions are too clustered. Frost Shield also mitigates PL’s physical burst on crucial allies or structures.",
+    "Shadow Fiend": "Lich’s strong laning presence and nukes can slow SF’s soul stacking. Once Lich gets Chain Frost, SF must keep distance or risk losing illusions (from Necromastery) and HP to bounces in teamfights.",
+    "Drow Ranger": "Frost Shield plus Sinister Gaze can disrupt Drow’s positioning. If she’s forced into a fight under Chain Frost, Drow’s low HP pool may not survive the bounce damage, especially in closed spaces."
+  },
+
+  "Lifestealer": {
+    "Faceless Void": "While Lifestealer can Rage inside Chronosphere, he can still be locked in place if Void catches him properly. Rage doesn’t prevent physical hits inside the sphere, making Lifestealer vulnerable to heavy focus fire.",
+    "Undying": "Undying’s Decay stacks can make Lifestealer less tanky, and Soul Rip helps allies survive Infest bombs. If Lifestealer invests in illusions or creeps, Undying’s Tombstone can punish the clustered fights.",
+    "Ursa": "Both heroes excel at man-fights, but Ursa’s Overpower and Fury Swipes stack quickly, out-damaging Lifestealer if he gets kited or stunned. Lifestealer relies on open wounds and rage timing to survive Ursa’s flurry."
+  },
+
+  "Lina": {
+    "Phantom Assassin": "Lina’s burst damage can kill PA before she closes in, but if PA survives the initial combo, Blur mitigates Lina’s right-click potential. It’s a skill matchup: Lina must maintain distance to avoid being crit down.",
+    "Juggernaut": "Lina has to land Light Strike Array before Jugg spins or use Laguna Blade to burst him. If Jugg commits Omnislash, Lina’s low HP pool is at risk unless she quickly euls or blinks away.",
+    "Templar Assassin": "Lina’s fiery spells remove TA’s Refraction charges fast. If Lina times her combos well, TA can’t meld dodge effectively. However, TA’s physical burst can kill Lina in a few hits if she missteps."
+  },
+
+  "Lion": {
+    "Phantom Lancer": "Lion’s AoE stun (Earth Spike) and Mana Drain can quickly chip illusions, revealing the real PL. If Lion gets Aghanim’s Scepter for Finger of Death, he can annihilate illusions in big fights.",
+    "Morphling": "Hex and Mana Drain cripple Morph’s ability to shift attributes or cast spells at will. If Lion catches Morph before he toggles to strength, a quick Finger of Death can burst him from moderate HP.",
+    "Storm Spirit": "A well-timed Hex or Earth Spike punishes Storm if he zips in carelessly. Storm must play around Lion’s burst or risk being chain-locked from full to zero, especially once Lion has blink or force staff."
+  },
+
+  "Lone Druid": {
+    "Batrider": "Batrider can lasso Lone Druid or his Spirit Bear, dragging the crucial target away from safety. Firefly’s burn also hurts the Bear, forcing Lone Druid to decide whether to re-summon early or risk losing it.",
+    "Viper": "Viper can break Spirit Link if he lands Nethertoxin on Lone Druid, negating much of LD’s sustain. Poison Attack also whittles down the Bear’s HP in lane, reducing LD’s farm efficiency.",
+    "Ursa": "Ursa excels at shredding the Spirit Bear with Fury Swipes, quickly stacking damage. If Lone Druid or the Bear gets Overpowered, it’s tough for them to outrun Ursa, forcing LD to itemize for mobility or tank."
+  },
+
+  "Luna": {
+    "Phantom Lancer": "Luna’s Glaives can bounce off illusions, but they often don’t do enough damage to kill them all quickly. If PL baits Luna’s Eclipse on illusions, she wastes her ultimate while the real PL stays safe.",
+    "Naga Siren": "Naga’s illusions soak up Eclipse beams, reducing Luna’s big teamfight damage. If Naga times Song of the Siren right, she can either set up kills on Luna or disengage from Eclipse entirely.",
+    "Elder Titan": "ET’s Natural Order removes Luna’s base armor and magic resistance, making her vulnerable once she’s caught. If she clumps with allies, Earth Splitter plus Stomp can punish her formation during Eclipse."
+  },
+
+  "Lycan": {
+    "Beastmaster": "Though both rely on summons, Beastmaster’s Primal Roar pierces Lycan’s BKB or shapeshift, letting him or allies focus Lycan before he can do significant damage. Boars also slow Lycan’s retreat or chase.",
+    "Bloodseeker": "Rupture punishes Lycan’s high mobility in shapeshift form. If Lycan tries to run, he takes heavy damage; if he stands still, Bloodseeker’s Thirst speeds up the chase for an easy kill.",
+    "Enchantress": "Enchantress can steal Lycan’s key creep with Enchant, reducing his pushing power. Untouchable also makes it difficult for Lycan to burst Enchantress with physical hits, forcing him to rely on summons."
+  },
+
+  "Magnus": {
+    "Phantom Lancer": "Magnus’s Reverse Polarity and Shockwave can clear illusions. Once PL is stunned by RP, Magnus’s team can follow up with big AoE damage, often turning illusions into a liability.",
+    "Anti-Mage": "If Magnus lands a well-timed Skewer or Reverse Polarity, AM is vulnerable to burst before he can blink out. Empower on allies helps them quickly burn through AM’s HP, especially if AM stands still to fight.",
+    "Juggernaut": "Empower significantly boosts Juggernaut’s right-click and cleave, allowing Jugg to farm and fight faster. Meanwhile, Magnus can set up combos with Reverse Polarity, letting Jugg land a devastating Omnislash on grouped foes."
+  },
+
+  "Mars": {
+    "Phantom Lancer": "While PL can swarm Mars with illusions, God’s Rebuke and Spear of Mars can quickly reveal or clear illusions. Arena of Blood also stops PL from easily repositioning, letting Mars’s allies focus the real one.",
+    "Medusa": "Mars can isolate Medusa in Arena of Blood, blocking her line of sight and preventing her from hitting multiple targets. If Medusa is walled in alone, she can be burst before Stone Gaze helps her team.",
+    "Riki": "Spearing Riki to a wall reveals him momentarily, canceling his invis attempts. Arena forces Riki to either use Tricks of the Trade in place or risk being pinned if he tries to blink out incorrectly."
+  },
+
+  "Medusa": {
+    "Anti-Mage": "AM’s Mana Break quickly burns Medusa’s mana shield, leaving her HP pool vulnerable. If Medusa relies heavily on split-shot, AM’s high mobility can dodge or flank her in fights.",
+    "Nyx Assassin": "Nyx’s Mana Burn and Spiked Carapace heavily punishes Medusa’s reliance on mana. A timely vendetta strike and Mana Burn can force Medusa to retreat or risk losing her entire shield mid-fight.",
+    "Phantom Lancer": "PL’s illusions swarm Medusa, forcing her to waste split-shot hits on fakes. If PL can drain Medusa’s mana or force her to cast spells prematurely, she loses her main defense and becomes much easier to kill."
+  },
+
+  "Meepo": {
+    "Earthshaker": "Classic counter: Echo Slam punishes grouped Meepos severely. A single good slam can wipe out all Meepos if they’re not spread out, especially if Earthshaker has a Blink Dagger.",
+    "Sven": "Sven’s Great Cleave and high physical burst can quickly eliminate multiple Meepos if he catches them together. Warcry also boosts Sven’s armor and that of his team, reducing Meepo’s burst window.",
+    "Tinker": "Meepo’s clones are all vulnerable to Tinker’s massive AoE laser-missile spam. If Tinker items well (e.g., Scythe of Vyse), he can lock down one Meepo at a time, picking them off rapidly during fights."
+  },
+
+  "Mirana": {
+    "Invoker": "Mirana’s Moonlight Shadow can set up surprise ganks, but Invoker’s AoE combos and detection (with Forge Spirits + Tornado) can reveal or punish her team. If Mirana leaps in poorly, Invoker can Cold Snap or EMP to lock her down.",
+    "Shadow Demon": "Disruption sets up easy arrow hits, forcing opponents to guess where Mirana might line up her Sacred Arrow. Soul Catcher also amps Mirana’s burst potential on a disrupted target.",
+    "Bane": "Nightmare or Fiend’s Grip can hold someone still for Mirana’s Arrow. Conversely, if Mirana leaps in to kill Bane, she risks being nightmared or gripped, especially if Bane anticipates her approach."
+  },
+
+  "Monkey King": {
+    "Phoenix": "Monkey King can avoid Phoenix’s Sun Ray and Supernova zone by leaping across trees. If Phoenix dives too aggressively, Wukong’s Command and Boundless Strike can punish that commitment, forcing Phoenix to retreat.",
+    "Bristleback": "Jingu Mastery’s lifesteal and Boundless Strike’s stun help MK trade well against Bristle early. If MK keeps hitting from behind with stacked Jingu, he can whittle Bristle’s HP despite Bristleback’s damage reduction.",
+    "Pangolier": "Although Pangolier has high mobility, MK’s tree dance helps him evade Rolling Thunder. If Pango tries to swashbuckle in, a quick Boundless Strike or Wukong’s Command can catch him out of position."
+  },
+
+  "Morphling": {
+    "Lion": "Lion’s Hex and Mana Drain limit Morph’s ability to switch attributes or cast waveforms freely. A well-timed Finger of Death punishes Morphling if he’s caught at lower Strength.",
+    "Skywrath Mage": "Skywrath’s high magical burst forces Morphling to quickly shift to Strength, sapping his agility-based damage output. Ancient Seal’s silence also prevents Morph from waveform escapes or using Morph.",
+    "Necrophos": "Reaper’s Scythe punishes Morphling if he’s at low HP or mid-attribute shift. Heartstopper Aura also ticks Morph down slowly, forcing him to invest in defensive items earlier than he might prefer."
+  },
+
+  "Naga Siren": {
+    "Disruptor": "Song of the Siren can set up Static Storm + Kinetic Field combos, trapping enemies inside. Alternatively, Disruptor can Glimpse a fleeing Naga or silence her illusions, disrupting her split-push strategy.",
+    "Bristleback": "While Naga can swarm many heroes, Bristleback’s Quill Spray hits all illusions. If he’s farmed, illusions melt quickly. However, if Naga outscales him, she can use Song to reset fights and pick better engagements.",
+    "Tidehunter": "Tide’s Anchor Smash and Ravage punish clumped illusions. If Naga tries to surround him, Ravage hits them all, giving Tide’s team a massive follow-up advantage. Kraken Shell also shrugs off Naga’s Riptide debuff."
+  },
+
+  "Nature’s Prophet": {
+    "Spectre": "Spectre can Haunt into Prophet’s backline, stopping his global split-push. Prophet’s squishiness makes him easy pickings if Spectre commits. Conversely, Prophet must itemize carefully to survive Spectre’s chase.",
+    "Tinker": "Both heroes excel in global play. Prophet can teleport to Tinker’s last known location to punish him post-rearm. If Tinker doesn’t have vision, Prophet’s sprout or team follow-up can secure kills on Tinker.",
+    "Lycan": "While Prophet can summon treants, Lycan’s wolves and units often overpower them. Lycan hunts NP in the jungle if he tracks him down with summons. Prophet needs strong positioning and vision to avoid being devoured."
+  },
+
+  "Necrophos": {
+    "Phantom Assassin": "PA’s burst can quickly bring Necro low before he can sustain with Death Pulse or Ghost Shroud. Necro must be careful not to get caught out of position, or Reaper’s Scythe becomes irrelevant if he’s dead first.",
+    "Rubick": "Rubick can steal Reaper’s Scythe for his own use, punishing Necro’s team if Necro doesn’t watch for Spell Steal. Telekinesis also disrupts Necro’s attempt to stand his ground and spam Death Pulse.",
+    "Juggernaut": "Juggernaut can Blade Fury to dodge Death Pulse spam or Reaper’s Scythe if timed well. Omnislash also bypasses Ghost Shroud’s protection, forcing Necro to position behind his team for safety."
+  },
+
+  "Night Stalker": {
+    "Keeper of the Light": "Night Stalker’s natural advantage at night counters KoTL’s day-centric kit. Once NS gets Aghanim’s and turns night on demand, KoTL loses vision and suffers from NS’s superior nighttime mobility.",
+    "Slark": "Both heroes rely on darkness. Night Stalker can’t easily lock Slark down if Slark pounces away. However, if NS gets on top of Slark first with crippling fear, Slark may not survive the silence to re-engage.",
+    "Puck": "Although Puck can phase shift and jaunt away, Night Stalker’s silence (Crippling Fear) is huge at night, preventing Puck’s escape combos. If Puck is caught without quick reflexes, NS tears him apart."
+  },
+
+  "Nyx Assassin": {
+    "Medusa": "Nyx’s Mana Burn destroys Medusa’s mana shield, making her far more vulnerable. Spiked Carapace can also stun Medusa if she’s pushing waves with split shot, buying Nyx time to set up ganks.",
+    "Zeus": "Zeus’s constant spellcasting triggers Spiked Carapace, letting Nyx close in with Impale. Mana Burn also cripples Zeus’s ability to chain nukes, forcing him to buy extra mana items or risk being drained.",
+    "Enigma": "Nyx can hide under Vendetta to scout for Enigma’s Black Hole setups. A well-timed Impale or Carapace cancels Enigma’s channel from outside typical ward vision, making Enigma’s big ult less reliable."
+  },
+
+  "Ogre Magi": {
+    "Phantom Assassin": "Bloodlust amps PA’s attack speed significantly, boosting her crit potential. With Ogre in lane, PA can farm more safely thanks to Ignite slows and Fireblast stuns, leading to a dangerous mid-game crit machine.",
+    "Juggernaut": "Ogre’s tankiness helps him survive Jugg’s early harass. Bloodlusted Juggernaut can push lanes faster, secure kills with extra movespeed, or out-DPS foes during Omnislash. Their synergy pressures lanes well.",
+    "Drow Ranger": "Bloodlust offsets Drow’s innate lack of mobility and boosts her already strong physical damage. Ignite also slows incoming threats, letting Drow maintain distance to keep dealing damage safely."
+  },
+
+  "Omniknight": {
+    "Legion Commander": "Omni’s Purification can help sustain an ally locked in Duel, often turning what would be a damage gain for LC into a wasted attempt. Guardian Angel also negates LC’s right-click burst if timed properly.",
+    "Timbersaw": "While Timbersaw is tanky, Omniknight’s pure damage from Purification and potential Degen Aura can keep Timber in place. Guardian Angel also nullifies Timbersaw’s Chakram harassment for a short duration.",
+    "Phantom Assassin": "PA relies on physical burst; Guardian Angel negates that for its duration. Omniknight’s Heavenly Grace also dispels some of PA’s debuffs (e.g., stuns on allies), letting them survive PA’s critical strikes."
+  },
+
+  "Oracle": {
+    "Axe": "Axe wants to drop enemies low for Culling Blade, but Oracle’s False Promise can save allies from lethal thresholds. Purifying Flames can also quickly burst-heal or snipe illusions, making it tricky for Axe to secure kills.",
+    "Bristleback": "Fates Edict prevents Bristle from spamming Quill Sprays, and Oracle’s purges can dispel any negative stacks on allies. False Promise also keeps a frontliner alive through heavy harassment, reducing Bristle’s kill potential.",
+    "Pudge": "Although Pudge can hook and rot, Oracle’s False Promise buys time for the hooked ally to escape or be healed. Fortune’s End can also root Pudge, preventing him from repositioning for another hook."
+  },
+
+  "Outworld Destroyer": {
+    "Medusa": "OD’s Arcane Orb deals pure damage that doesn’t care about Medusa’s mana shield as much. If OD repeatedly hits her, it drains her mana shield quickly. Sanity’s Eclipse punishes her large mana pool if she’s not full strength.",
+    "Dragon Knight": "OD’s orbs ignore Dragon Blood’s armor, letting OD whittle DK down. Astral Imprisonment can also disrupt DK’s initiation or waste his Elder Dragon Form duration, stalling his impact in fights.",
+    "Phantom Lancer": "While PL can swarm many heroes, OD’s Arcane Orb can be devastating if he identifies the real PL. Astral also saves OD from immediate illusions. However, OD must itemize carefully for mobility and detection."
+  },
+
+  "Pangolier": {
+    "Grimstroke": "Inkswell can buffer Pangolier’s Rolling Thunder approach, making it even harder for enemies to escape chain stuns. Soulbind also potentially doubles the effect of Pangolier’s swashbuckle hits on linked targets.",
+    "Shadow Shaman": "Although Shackles locks Pango, Rolling Thunder can disrupt any attempt by Shaman to channel. If Pangolier baits Shaman into overcommitting, a well-timed roll or swashbuckle punishes Shaman’s immobility.",
+    "Underlord": "Pangolier’s mobility counters Underlord’s slow, channel-based style. Rolling Thunder can break Pit of Malice quickly, and Swashbuckle helps Pango dodge Firestorm damage, letting him harass Underlord in lane."
+  },
+
+  "Puck": {
+    "Doom": "Doom negates Puck’s elusive nature if cast before Phase Shift or Jaunt. Puck must maintain distance; if caught in blink range, Puck can be Doomed, removing all escape spells until it wears off.",
+    "Wraith King": "Puck can easily harass WK in lane with high mobility and good nuke damage. Dream Coil also locks WK in place, forcing him to either snap the coil or burn his Reincarnation in an unfavorable position.",
+    "Juggernaut": "Puck can phase shift or illusory orb away from Omnislash. However, if Jugger times his Blade Fury well, he can punish Puck’s low HP. This matchup often comes down to who outplays whom in engagements."
+  },
+
+  "Pudge": {
+    "Anti-Mage": "Hooking AM before he can blink is a challenge, but if Pudge lands it, Rot plus Dismember can secure a kill if AM is low or lacks Manta. AM’s high mobility can outmaneuver Pudge, so it’s about skillful hooking.",
+    "Sniper": "Sniper’s immobility makes him a prime hooking target. Once Pudge closes the gap, Sniper struggles to escape Rot’s slow. Shrapnel and range advantage help Sniper—unless Pudge lands that critical Hook.",
+    "Crystal Maiden": "CM’s low mobility is easy prey for Pudge. If she tries to channel her ultimate or cast from the backline, Hook can force her out of position. Rot also disrupts her timing, preventing safe retreats."
+  },
+
+  "Pugna": {
+    "Spectre": "Nether Blast quickly clears Spectre’s illusions from Haunt, but if Spectre reaches Pugna, his low HP pool is easily shredded. Pugna must rely on Decrepify and team backup to survive late-game Spectre.",
+    "Tidehunter": "Tide’s tankiness lets him shrug off Pugna’s burst. Kraken Shell dispels Decrepify or Life Drain channels. If Pugna tries to push towers early, Tide can anchor smash waves to stall the push effectively.",
+    "Spirit Breaker": "Pugna’s channeling (Life Drain) is easily interrupted by SB’s Charge or Nether Strike. While Pugna can Decrepify to avoid physical hits, SB’s high mobility can chase him relentlessly across the map."
+  },
+
+  "Queen of Pain": {
+    "Silencer": "Global Silence disrupts QOP’s blink-and-nuke playstyle, forcing her to itemize BKB. Without her spells, QOP is much easier to catch and kill, negating her primary strength of burst damage.",
+    "Puck": "A skill-based matchup: Puck can phase shift QOP’s Shadow Strike or Sonic Wave, while QOP can blink-dodge Puck’s Coil or Orb. Whoever outplays the other typically wins the lane and subsequent rotations.",
+    "Void Spirit": "Both are highly mobile, burst-heavy heroes. However, if Void Spirit catches QOP with Aether Remnant or Resonant Pulse, QOP can’t easily cast or blink away, giving Void Spirit kill potential mid or late game."
+  },
+
+  "Razor": {
+    "Terrorblade": "If Razor gets a good Static Link on TB, he can steal the majority of TB’s damage, nullifying Metamorphosis. TB relies on illusions, but Razor’s Plasma Field punishes illusions grouped for Sunder attempts.",
+    "Sand King": "Although SK has decent AoE damage, Razor’s Storm Surge plus Static Link can chase SK down. If SK tries to channel Epicenter, Razor can quickly break distance or disrupt him with Eye of the Storm and Link.",
+    "Omniknight": "Razor’s physical plus magical mix is hard for Omni to negate with Guardian Angel alone. Static Link also punishes melee range, so if Omni walks up to heal or purify, he risks losing significant damage to Razor."
+  },
+
+  "Riki": {
+    "Bounty Hunter": "Both rely on invis. However, BH’s Track negates Riki’s permanent invis advantage, giving BH’s team vision to burst Riki quickly. If Riki tries to roam for kills, BH can follow him unseen and counter-gank.",
+    "Bloodseeker": "Rupture punishes Riki’s attempts to Blink Strike or run, forcing Riki to stand and fight or get massively damaged. Thirst also reveals Riki if he’s low HP, denying him the element of surprise.",
+    "Tinker": "Riki can scout for Tinker’s rearm-and-TP patterns, punishing him with Smoke Screen. Once Tinker is silenced, he can’t blink or cast spells, allowing Riki to pick him off quickly in the backlines."
+  },
+
+  "Rubick": {
+    "Enigma": "Stealing Black Hole can swing entire teamfights. Rubick’s instant lifts also disrupt Enigma’s channel if Rubick has vision. Enigma must use BKB or position carefully to avoid giving Rubick a dream spell.",
+    "Magnus": "If Rubick steals Reverse Polarity, the enemy team can be devastated by their own wombo combo. Telekinesis also interrupts Magnus’s attempts to Skewer allies away, forcing precise timing from the Mag.",
+    "Leshrac": "Rubick’s Spell Steal from Leshrac (Split Earth, Lightning Storm, or even Pulse Nova) provides strong waveclear and fight potential. With good positioning, Rubick can return Lesh’s own AoE damage effectively."
+  },
+
+  "Sand King": {
+    "Naga Siren": "SK’s Sand Storm and Caustic Finale help clear illusions, but a well-farmed Naga can tank Epicenter. SK must land big initiations with Blink-Burrowstrike to catch Naga off guard before she songs or splits.",
+    "Ursa": "Ursa can punish SK’s blink attempts with quick Overpower hits. If SK tries Epicenter, Ursa can enrage to mitigate damage. In lane, Caustic Finale does decent harass, but Ursa’s lane presence is often stronger.",
+    "Warlock": "While SK channels Epicenter, Warlock can drop Golem to interrupt or stun him mid-cast. However, if Warlock clumps with his team, a Blink-initiated Epicenter plus Burrowstrike can wipe grouped enemies."
+  },
+
+  "Shadow Demon": {
+    "Terrorblade": "Disruption on TB creates illusions with TB’s massive base damage, turning his power against him. Soul Catcher also makes TB extremely squishy if timed pre-Sunder.",
+    "Luna": "Disruption illusions of Luna benefit from her high damage and bounce Glaives, especially when Luna has farm. Shadow Demon’s demonic cleanse also purges beneficial buffs from Luna, limiting her damage output.",
+    "Morphling": "Stealing illusions of Morphling can be devastating if Morph is heavily farmed. Purge also slows Morph significantly if he tries to waveform away, giving allies the chance to finish him off before he shifts stats."
+  },
+
+  "Shadow Fiend": {
+    "Viper": "A classic lane counter. Viper’s poison attacks outrange SF early, preventing him from farming souls. SF must play carefully or risk dying repeatedly in lane. Later, SF can outfarm if he recovers, but Viper’s break remains threatening.",
+    "Clockwerk": "Hookshot isolates SF, preventing him from channeling Requiem safely. Battery Assault disrupts raises and item usage. If SF is caught in cogs, his low HP pool is easily exploited by early Clock rotations.",
+    "Storm Spirit": "Storm can zip onto SF before he channels Requiem or lands raises. SF must rely on quick reflexes (e.g., Yule’s combos) or strong support rotations to punish Storm’s aggression."
+  },
+
+  "Shadow Shaman": {
+    "Faceless Void": "Even if Void Chronos someone else, Shackles or Hex can be used outside Chronosphere to control additional enemies. Conversely, if Void catches SS in Chrono, SS has limited ways to defend himself unless he gets items first.",
+    "Broodmother": "Serpent Wards help defend towers against Brood’s spiderlings, and Shackles or Hex can lock Brood in place long enough for allies to burst her. However, Brood can also pick off SS if he’s alone, so positioning is key.",
+    "Doom": "Hex and Shackles are reliable disables on Doom, giving your team time to burst him before he casts ultimate. However, once Doom is cast on Shaman, he can’t channel Shackles or cast wards, negating his biggest threat."
+  },
+
+  "Silencer": {
+    "Brewmaster": "Global Silence prevents Brew from using Primal Split, significantly reducing his impact in fights. Brew must itemize for BKB or Lotus to remove silence or risk never splitting in crucial fights.",
+    "Phoenix": "If Phoenix tries to dive and cast Supernova, Global Silence can stop him mid-dive or prevent the egg from going off in time. Phoenix usually has to rush Lotus Orb or BKB to fight Silencer effectively.",
+    "Timbersaw": "Timber relies on spamming spells for damage and mobility. Arcane Curse + Last Word rapidly drains his HP if he keeps casting, and Global Silence can catch him mid-chain, making him vulnerable to follow-up kills."
+  },
+
+  "Skywrath Mage": {
+    "Spectre": "Concussive Shot and Arcane Bolt chip away at Spectre’s low early HP. Mystic Flare punishes Spectre if she commits Haunt too soon without a strong follow-up. However, once Spectre has items, Skywrath must stay back to avoid being dived.",
+    "Pudge": "Although Pudge can hook Skywrath, the latter’s high burst often kills Pudge before he can fully commit, especially if Skywrath gets a Veil or Eul’s. Ancient Seal also amplifies all of Sky’s magic damage, shredding Pudge quickly.",
+    "Storm Spirit": "Skywrath’s instant silence (Ancient Seal) locks Storm’s mobility. If Storm zips in carelessly, a quick seal plus Mystic Flare can burst him down unless he has BKB or allies ready to save him."
+  },
+
+  "Slardar": {
+    "Phantom Lancer": "Slardar’s Bash of the Deep and Slithereen Crush reveal illusions quickly in fights. Corrosive Haze also identifies the real PL and reduces his armor to zero, making him easier to focus down.",
+    "Drow Ranger": "Slardar’s Blink–Crush combo punishes Drow’s immobility. Once Corrosive Haze is applied, Drow’s low armor is exploited, and Slardar’s mobility can chase her despite Gust knockbacks.",
+    "Timbersaw": "Corrosive Haze negates much of Timbersaw’s reactive armor, allowing Slardar and his team to do massive physical damage. Timbersaw can’t tank indefinitely once his armor is heavily reduced."
+  },
+
+  "Slark": {
+    "Warlock": "Although Slark can dispel slow or stuns with Dark Pact, Warlock’s Chaotic Offering plus Fatal Bonds punishes Slark if he’s out of position. If Warlock stays back, Slark may struggle to get a quick kill on him without heavy commit.",
+    "Phoenix": "Phoenix’s Sun Ray cuts through Slark’s HP pool, especially if he tries to stand and fight. Fire Spirits also reduce Slark’s attack speed, making it tougher for him to kill the egg or remove it quickly in fights.",
+    "Dazzle": "Shallow Grave denies Slark’s attempt to secure quick Essence Shift stacks. If Slark invests in a kill only for Dazzle to Grave his ally, Slark might be forced out of the fight, losing momentum and safety."
+  },
+
+  "Snapfire": {
+    "Clockwerk": "Snapfire’s Firesnap Cookie can help allies jump out of Power Cogs, negating Clock’s lock-down. Mortimer Kisses outrange Clock’s short-range fights, letting Snapfire punish clumped-up enemies stuck in cogs.",
+    "Phantom Lancer": "Scatterblast and Mortimer Kisses can decimate illusions if PL stands still or clumps them. However, if PL outmaneuvers Snapfire with Doppelganger, she may waste her big cooldowns on fakes.",
+    "Marci": "Snapfire can keep Marci at bay with Scatterblast slow and Firesnap Cookie. If Marci tries to close the gap for Dispose or unleash, Snapfire’s range on Kisses punishes clustered fights where Marci thrives."
+  },
+
+  "Sniper": {
+    "Faceless Void": "Sniper outranges many heroes, but Void’s Chronosphere bypasses Sniper’s distance advantage. If Sniper is caught, he’s likely to die before help arrives. Conversely, good positioning can shred Void outside of Chrono.",
+    "Spirit Breaker": "SB’s Charge of Darkness nullifies Sniper’s range advantage, quickly closing the gap. If Sniper can’t interrupt the charge in time, Nether Strike stuns him long enough for SB’s team to follow up.",
+    "Bounty Hunter": "BH’s invis scouting locates Sniper’s backline position. If BH gets on top of Sniper with Track, Sniper’s lack of mobility can lead to easy kills unless Sniper invests in force staff or good defensive wards."
+  },
+
+  "Spectre": {
+    "Tinker": "Haunt reveals Tinker’s location, preventing him from safely rearming behind trees or in fog. Once spotted, Spectre can Reality in to finish Tinker off unless Tinker has instant escape or allies nearby.",
+    "Invoker": "Spectre’s global presence lets her join fights Invoker tries to orchestrate. If Invoker overextends or is mid-channel (Sun Strike, Meteor combos), Spectre can Haunt in, punishing his lack of mobility without Ghost Walk ready.",
+    "Sniper": "Once Spectre has Haunt and a few items, she easily closes distance on Sniper. Sniper’s outrange advantage disappears if Spectre times her entry well, forcing Sniper to itemize heavily for mobility."
+  },
+
+  "Spirit Breaker": {
+    "Tinker": "Spirit Breaker’s global ganking presence punishes Tinker’s constant rearm-and-TP. Once Charge of Darkness locks onto Tinker, it’s difficult for him to blink away in time.",
+    "Sniper": "Charge of Darkness negates Sniper’s range advantage, forcing a close fight. If SB combines Nether Strike with allies, Sniper often goes down before he can reposition.",
+    "Anti-Mage": "While AM is elusive, a well-timed Charge and Nether Strike can catch him before blink. If AM is forced to burn mana defensively, Spirit Breaker’s team can quickly follow up."
+  },
+
+  "Storm Spirit": {
+    "Lion": "Storm can be instantly disabled by Lion’s Hex or Earth Spike if he overcommits. Mana Drain also punishes Storm’s high mana pool, forcing him to zip more cautiously.",
+    "Puck": "Both are highly mobile heroes, but Puck’s silence (Waning Rift) and Dream Coil can lock Storm in place. Storm must itemize defensively to avoid being perma-CC’d in crucial fights.",
+    "Nyx Assassin": "Nyx’s Mana Burn heavily disrupts Storm’s game plan, and a well-timed Spiked Carapace can stun Storm mid-ball lightning. Nyx can also scout Storm’s jungle rotations with Vendetta."
+  },
+
+  "Sven": {
+    "Phantom Lancer": "Sven’s Great Cleave quickly reveals and destroys PL’s illusions in fights. God’s Strength gives him enough damage to burst PL if Sven catches the real one with Storm Hammer.",
+    "Medusa": "While Medusa’s mana shield is strong, Sven’s physical burst under God’s Strength can out-damage her if he gets on top of her. Warcry also boosts armor to help his team survive her split shot.",
+    "Mars": "Sven can jump Mars with Blink–Storm Hammer before Mars sets up Arena. Warcry’s bonus armor mitigates some of Mars’s physical damage, letting Sven brawl effectively."
+  },
+
+  "Techies": {
+    "Broodmother": "Mines annihilate Brood’s spiderlings, making it hard for her to safely push. If Brood tries to dive under tower, well-placed Proximity Mines can punish her aggression severely.",
+    "Legion Commander": "If LC duels a Techies ally, Techies can use mines or Blast Off! to turn the duel around. Stasis Trap also disrupts LC’s initiation if she steps into range blindly.",
+    "Juggernaut": "Even though Jugg can Blade Fury through some damage, he must be cautious of mines when split-pushing. A surprise Remote Mine or Blast Off! can still blow him up if he’s not at full HP."
+  },
+
+  "Templar Assassin": {
+    "Viper": "A classic lane counter: Viper’s poison attacks and Nethertoxin strip Refraction charges instantly. TA must play very carefully or risk being zoned out and falling behind in farm.",
+    "Phantom Assassin": "TA’s meld strikes and high physical damage can out-trade PA early. However, if PA gets on top with Blur and a quick crit, TA’s lower HP might be threatened unless she’s farmed or has backup.",
+    "Batrider": "Sticky Napalm and Firefly burn through Refraction, and Flaming Lasso prevents TA from escaping. Batrider forces TA to itemize defensively (e.g., BKB) earlier than she might like."
+  },
+
+  "Terrorblade": {
+    "Sven": "Sven’s cleave quickly cuts down TB’s illusions. If Sven catches TB in melee range while God’s Strength is up, TB risks losing illusions and HP before he can Sunder.",
+    "Zeus": "Zeus’s AoE magic damage (Arc Lightning, Thunder God’s Wrath) reveals and hurts illusions. TB relies on illusions for damage and push, so Zeus can whittle them down and keep vision on him.",
+    "Shadow Demon": "If SD uses Disruption on TB, the resulting illusions benefit from TB’s high base damage, potentially out-damaging TB himself. Soul Catcher also makes TB extremely vulnerable if he’s caught."
+  },
+
+  "Tidehunter": {
+    "Ursa": "Ursa’s Fury Swipes stack quickly, threatening Tide despite Kraken Shell. If Tide is forced to use Ravage defensively, Ursa can re-engage with Enrage to shrug off the stun and finish Tide.",
+    "Silencer": "Global Silence can stop Tide from casting Ravage at a critical moment. Tide must consider items like Guardian Greaves or Lotus to remove the silence if he wants to land big ultimates.",
+    "Outworld Destroyer": "OD’s Arcane Orbs ignore Tide’s armor and can outscale Kraken Shell in drawn-out fights. Astral Imprisonment also stalls Tide’s Ravage or isolates him from his team momentarily."
+  },
+
+  "Timbersaw": {
+    "Huskar": "Huskar’s burning spears deal pure damage over time, negating some of Timber’s reactive armor advantage. If Huskar leaps in aggressively, Timbersaw must quickly chain away or risk stacking spears.",
+    "Juggernaut": "While Timbersaw is tanky, OmniSlash deals significant single-target damage, especially if Juggernaut isolates Timber. Healing Ward also offsets Timbersaw’s chip damage in lane.",
+    "Nyx Assassin": "Nyx’s Mana Burn hurts Timbersaw’s mana-dependent kit. Spiked Carapace can stun Timbersaw mid-Whirling Death or Chakram, making him vulnerable to follow-up ganks."
+  },
+
+  "Tinker": {
+    "Storm Spirit": "Storm can zip onto Tinker before he rearms or teleports out. A quick Vortex plus allied follow-up shuts down Tinker’s fragile presence, forcing him to itemize defensively (e.g., Linkens or Eul’s).",
+    "Clockwerk": "Rocket Flare gives vision, enabling Hookshot to catch Tinker while he’s rearming in fog. Once trapped in cogs, Tinker can’t easily escape unless he preemptively blinked away.",
+    "Riki": "Riki’s invisibility and Smoke Screen punish Tinker’s need to stand still for rearm. If Tinker has no defensive item, Riki can quickly burst him once Tinker is silenced."
+  },
+
+  "Tiny": {
+    "Io": "The classic partner for Tiny: Overcharge and Tether amplify Tiny’s damage and mobility, enabling early tower pushes and ganks. Relocate also sets up easy Toss-initiations for kills.",
+    "Phantom Lancer": "Tiny’s AoE Avalanche and Tree Grab hits illusions hard, but PL can outscale if he avoids early fights. If Tiny can catch PL with a fast Blink combo, PL might be bursted before Doppelganger.",
+    "Morphling": "Morphling can replicate Tiny for free Tree Grab plus damage, but if Tiny combos first, Morphling might not survive unless he shifts to Strength quickly. This matchup is about who jumps whom."
+  },
+
+  "Treant Protector": {
+    "Legion Commander": "Living Armor helps allies survive Duel attempts. Treant’s Overgrowth can also root LC mid-initiation, preventing a clean kill. LC must build items to remove root (BKB or Lotus) to reliably duel.",
+    "Beastmaster": "Treant’s global Living Armor can stall Beastmaster’s push, and Overgrowth roots his creeps. However, if Beastmaster roars Treant first, the push might continue unchecked.",
+    "Nature’s Prophet": "Treant’s vision advantage with Nature’s Guise helps track Prophet’s split pushes. Living Armor also repairs towers, countering Prophet’s chip damage. Overgrowth can trap NP if he tries to TP away in trees."
+  },
+
+  "Troll Warlord": {
+    "Phantom Lancer": "If Troll identifies the real PL, Fervor stacks can tear him apart. But PL’s illusions can confuse Troll, especially if Troll fails to quickly find the real target before Battle Trance ends.",
+    "Lifestealer": "Troll’s high attack speed can match Lifestealer’s sustain in a man-fight. However, if Lifestealer rages effectively, Troll’s root from axes is negated. The matchup often hinges on item timings.",
+    "Dazzle": "Shallow Grave counters Troll’s lethal finishing blow during Battle Trance. Troll may overcommit, only for Dazzle’s ally to survive and turn the fight. Troll must manage his ultimate carefully."
+  },
+
+  "Tusk": {
+    "Pangolier": "Snowball can catch Pango mid-Rolling Thunder, negating his chain stun potential. Tag Team also helps Tusk’s team quickly burst Pango before he gets away with Swashbuckle.",
+    "Juggernaut": "Although Jugg can spin to avoid some physical damage, a well-timed Walrus Punch can interrupt his TP or finish him during low HP phases. Tusk’s early ganks can pressure Jugg’s farm.",
+    "Shadow Fiend": "Snowball and Ice Shards punish SF’s low mobility. If SF lines up for a Requiem, Tusk can interrupt with Walrus Punch or Snowball. Early rotations can severely cripple SF’s soul stacking."
+  },
+
+  "Underlord": {
+    "Naga Siren": "Firestorm and Pit of Malice hamper Naga’s illusions, slowing her push. Dark Rift also counters global split push by quickly regrouping Underlord’s entire team to defend or force fights.",
+    "Arc Warden": "Underlord’s AoE spells clear Arc’s Tempest Double + Spark Wraith waves. If Underlord catches Arc with Pit of Malice, Arc’s clone or main hero can’t easily kite while the team converges.",
+    "Broodmother": "Pit of Malice and Firestorm punish Brood’s spiderlings. Underlord’s strong area denial stifles Brood’s usual lane dominance, and Dark Rift can reposition to defend towers Brood tries to siege."
+  },
+
+  "Undying": {
+    "Phantom Lancer": "Although PL has illusions, Undying’s Decay spam can cripple his base HP. Tombstone also reveals illusions if they attack it. However, PL can kill Tombstone quickly if Undying doesn’t protect it.",
+    "Legion Commander": "LC can quickly destroy the Tombstone while dueling someone else, and Press the Attack removes Decay stacks. Undying must rely on soul rip and team synergy to prevent easy Duel wins.",
+    "Meepo": "Each Meepo clone can be targeted by Decay, letting Undying amass high STR. Tombstone also overwhelms grouped Meepos, especially if Meepo tries to fight early around choke points."
+  },
+
+  "Ursa": {
+    "Enchantress": "Ursa’s fury swipes can outdamage Enchantress’s Untouchable if he gets on top of her. If Enchantress tries to kite, Ursa can use Overpower + Earthshock to close the gap quickly.",
+    "Wraith King": "Ursa can burn through WK’s first life swiftly with Fury Swipes. If WK reincarnates at low mana or near Ursa’s allies, a second kill is often imminent. WK must itemize for armor or kiting tools.",
+    "Slardar": "Though Slardar has strong physical damage, Ursa can Enrage to reduce incoming damage and win the brawl. If Slardar tries to crush and run, Ursa’s Earthshock keeps him in range."
+  },
+
+  "Vengeful Spirit": {
+    "Enigma": "Swap cancels Black Hole even through BKB, making Venge a top-tier counter. If Enigma tries to channel, Venge’s cast range for Swap can instantly punish that initiation.",
+    "Drow Ranger": "Venge’s aura boosts Drow’s damage significantly, and Swap saves Drow from divers. If Drow is caught out, Venge can sacrifice herself to reposition Drow, preserving Drow’s carry potential.",
+    "Pangolier": "Swap or Magic Missile can interrupt Rolling Thunder or catch Pango off-guard. Venge’s negative armor aura post-death also helps allies quickly burst Pango if he overcommits."
+  },
+
+  "Venomancer": {
+    "Lifestealer": "Venomancer’s damage-over-time can force Lifestealer to use Rage prematurely or chip him down when Rage is on cooldown. Plague Wards also reveal Lifestealer’s approach, denying surprise infest bombs.",
+    "Storm Spirit": "Constant slows and DoT from Venomous Gale and Poison Nova make Storm use more mana for zipping. If Storm is hit by Poison Nova, he must retreat or risk getting picked off at low HP.",
+    "Legion Commander": "Although LC can purge Venomous Gale, Poison Nova’s large AoE still affects her team. Veno’s wards also block LC’s blink paths, making it harder for her to initiate Duels cleanly."
+  },
+
+  "Viper": {
+    "Timbersaw": "Viper’s Nethertoxin breaks Timbersaw’s reactive armor, making Timber significantly squishier. Timbersaw must be cautious entering Viper’s zone or risk getting whittled down quickly.",
+    "Dragon Knight": "Viper breaks Dragon Blood with Nethertoxin, removing DK’s main source of tankiness. DK can’t rely on his innate regen in lane, so Viper often wins the matchup unless DK gets quick ganks or rotations.",
+    "Bristleback": "Similarly, Viper can break Bristle’s passive with Nethertoxin, exposing him to full damage from the front and back. If Viper keeps applying poison, Bristle struggles to build Quill stacks safely."
+  },
+
+  "Visage": {
+    "Broodmother": "Both rely on summons. Visage’s familiars can stomp spiderlings with Stone Form, and Soul Assumption punishes Brood if she tries to dive. Brood must micro carefully or lose her spiders quickly.",
+    "Chen": "Chen can convert neutral creeps, but Visage’s familiars remain unaffected. In pushes, Visage’s familiars and Grave Chill hamper Chen’s creeps, while Stone Form provides valuable AoE stuns.",
+    "Lycan": "Visage can stall Lycan’s push by dropping Stone Form on wolves or necro units. If Lycan overcommits, Soul Assumption stacks rack up quickly, punishing him despite his high HP pool."
+  },
+
+  "Void Spirit": {
+    "Queen of Pain": "Both heroes rely on mobility and burst. If Void Spirit lands Aether Remnant or Resonant Pulse, QOP can’t blink away safely. However, QOP can out-harass early if she’s careful with Void’s cooldowns.",
+    "Invoker": "Dissimilate dodges Invoker’s combos if timed well. If Void Spirit catches Invoker with Astral Step or Aether Remnant, Invoker’s lack of mobility punishes him, forcing an early Ghost Walk or defensive item.",
+    "Puck": "A high-skill matchup. Puck’s Coil can lock Void Spirit, but if Void times his Dissimilate or Simulacrum, he may evade. Both can outplay each other with quick reactions and good positioning."
+  },
+
+  "Warlock": {
+    "Phantom Assassin": "Chaotic Offering disrupts PA’s attempts to blow up backlines, and Fatal Bonds punishes PA if she’s near allies. Warlock’s heal also helps squishy allies survive PA’s burst.",
+    "Rubick": "Rubick might steal Chaotic Offering, but Warlock’s big teamfight presence can’t be fully negated by a single steal. Fatal Bonds and Upheaval can still swing fights if Warlock positions well.",
+    "Beastmaster": "Warlock’s Golem drop can counter Beastmaster’s push. If Beastmaster commits with summons, Fatal Bonds spreads damage across them, and Upheaval slows their siege, buying Warlock’s team time to react."
+  },
+
+  "Weaver": {
+    "Bounty Hunter": "Track reveals Weaver despite Shukuchi, negating his invis advantage. If BH lands a well-placed slow or allies follow up, Weaver might be forced to Time Lapse early or risk dying.",
+    "Slardar": "Slardar’s Corrosive Haze reveals Weaver even if he’s invisible, and the bonus movespeed helps Slardar chase through Shukuchi. Weaver’s low HP pool is vulnerable to bash combos.",
+    "Bloodseeker": "Rupture corners Weaver, making it dangerous to Shukuchi away. Thirst vision also reveals a low-HP Weaver, preventing him from disappearing into fog or escaping fights easily."
+  },
+
+  "Windranger": {
+    "Sniper": "Windrun lets Windranger close the gap against Sniper’s range. Once she has focus fire, Sniper can’t rely on headshots alone to repel her, forcing him into defensive positioning.",
+    "Phantom Assassin": "Windrun negates PA’s physical burst if timed well, and Focus Fire can shred PA if Windranger has MKB. However, if PA manages to gap-close without Windranger reacting, WR can be crit down quickly.",
+    "Tidehunter": "While Tide is tanky, Windranger’s Focus Fire plus potential armor-penetration items let her chip him down. She must, however, avoid getting caught by a well-timed Ravage or anchor smash in lane."
+  },
+
+  "Winter Wyvern": {
+    "Phantom Lancer": "Splinter Blast can reveal illusions in fights, and Winter’s Curse can lock the real PL plus illusions together. However, if PL baits out the curse or splits illusions well, Wyvern might struggle alone.",
+    "Terrorblade": "Wyvern’s curse forces TB and his illusions to damage each other. Splinter Blast also hits illusions. TB can’t safely sunder if he’s stunned or if illusions are turned against him by curse.",
+    "Luna": "Wyvern’s Cold Embrace counters Luna’s Eclipse if allies group. Winter’s Curse can also make Luna’s allies kill her if they’re stacked together, negating her mid-game teamfight advantage."
+  },
+
+  "Witch Doctor": {
+    "Slark": "If Slark dives, Maledict punishes him for trading too aggressively. Death Ward also deals heavy physical damage if Slark’s Dark Pact or Shadow Dance is on cooldown.",
+    "Dark Seer": "Paralyzing Casks bounce well on DS and his Ion Shell illusions. Maledict combined with allied burst punishes DS if he tries to surge away with low HP, forcing him to think twice about diving.",
+    "Treant Protector": "WD’s Death Ward outranges Treant’s melee presence, and Paralyzing Cask interrupts attempts to Overgrowth if Treant steps into vision. Maledict also punishes Treant’s large HP pool."
+  },
+
+  "Wraith King": {
+    "Anti-Mage": "AM burns WK’s mana, preventing or delaying Reincarnation. If WK can’t recast his ultimate, AM’s mobility and damage can outscale him in prolonged fights.",
+    "Necrophos": "Reaper’s Scythe can finish WK before he triggers Reincarnation if timed perfectly on threshold. Ghost Shroud plus Death Pulse also sustain Necro’s team through WK’s initial burst.",
+    "Phantom Lancer": "PL’s illusions drain WK’s mana with Diffusal Blade, sometimes preventing Reincarnation. WK’s single-target stun struggles to pin down the real PL unless WK has reliable AoE backup."
+  },
+
+  "Zeus": {
+    "Anti-Mage": "Mana Break and Counterspell punish Zeus’s large mana pool and reliance on spells. AM can blink onto Zeus, forcing the squishy caster to blow spells prematurely or die quickly.",
+    "Spectre": "While Zeus reveals Spectre’s illusions with Arc Lightning and Thundergod’s Wrath, Spectre can haunt onto Zeus in the backline. Zeus must position flawlessly or risk being instantly jumped.",
+    "Meepo": "Zeus’s high AoE magical damage from Arc Lightning and Chain Lightning punishes multiple Meepos. If he keeps them low, a Thundergod’s Wrath or well-placed Lightning Bolt can finish them off globally."
+  },
+
+  "Marci": {
+    "Legion Commander": "Dispose and Rebound allow Marci to reposition or save allies targeted by Duel. LC can’t easily lock down a target if Marci’s mobility disrupts her blink or opens distance mid-fight.",
+    "Lifestealer": "Lifestealer relies on Rage for immunity, but Marci’s physical combos (Unleash with sidekick) can still out-DPS him if she kites effectively. If Lifestealer isn’t careful, Marci can throw him into danger.",
+    "Earth Spirit": "Both are strong roaming supports. However, Marci’s Dispose can interrupt Earth Spirit’s Rolling Boulder. If Earth Spirit engages, Marci can use Rebound or Dispose to peel for her backline."
+  },
+
+  "Dawnbreaker": {
+    "Faceless Void": "Solar Guardian can save an ally caught in Chronosphere if Dawn times her global ulti after Void commits. Void must isolate Dawn or risk losing kill potential on his chrono target.",
+    "Pangolier": "Dawnbreaker’s Starbreaker can stun Pango mid-Rolling Thunder if angled correctly. If Pango tries to escape with Swashbuckle, Celestial Hammer’s gap close can chase him down.",
+    "Elder Titan": "While ET sets up with Stomp, Dawnbreaker can counter-initiate globally, turning fights. However, if ET lands a big Earth Splitter while Dawn channels, she risks being stunned or bursted upon arrival."
+  },
+
+  "Primal Beast": {
+    "Broodmother": "Primal Beast’s Trample and Onslaught clear Brood’s spiderlings quickly. If Brood tries to hide in webs, Uproar gives Primal Beast extra damage and slow immunity, forcing Brood to reposition or risk dying.",
+    "Troll Warlord": "Troll’s melee form struggles against Primal Beast’s massive AoE damage and knockbacks. If Troll commits with Battle Trance, Primal Beast can Pulverize him or simply run him over with Trample.",
+    "Phantom Lancer": "Trample deals AoE physical damage, revealing and damaging PL’s illusions. If Primal Beast lands a good Onslaught into Pulverize on the real PL, it’s often enough time for allies to follow up and finish him."
+  },
+
+  "Muerta": {
+    "Sniper": "Muerta’s Gunslinger ability can punish Sniper’s backline positioning. If Muerta closes in with The Calling or uses Pierce the Veil, she can ignore Sniper’s range advantage and burst him before he repositions.",
+    "Phantom Assassin": "Although PA can blink onto Muerta, Muerta’s ultimate (Pierce the Veil) lets her deal high magical/piercing damage that cuts through PA’s Blur. If PA can’t quickly burst Muerta, she risks trading unfavorably.",
+    "Visage": "Muerta’s rapid, high-damage attacks can quickly focus Visage’s Familiars or force them to Stone Form prematurely. Dead Shot also zones Visage in fights, making it risky for him to commit unless Muerta is controlled."
+  }
+}
